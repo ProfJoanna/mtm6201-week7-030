@@ -32,3 +32,13 @@ img, svg {
     transform: translate(70px, 90px) scale(0.3);
     fill: coral;
 }
+
+.abstract polyline {
+    z-index: 99;
+}
+
+.abstract text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    fill: #551fd1;
+}
