@@ -27,3 +27,8 @@ img, svg {
 .embed-svg rect {
     fill: crimson;
 }
+
+.abstract .star {
+    transform: translate(70px, 90px) scale(0.3);
+    fill: coral;
+}
