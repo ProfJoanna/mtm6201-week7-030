@@ -6,6 +6,11 @@ h1, h2 {
     text-align: center;
 }
 
+img, svg {
+    display: block;
+    margin: 0 auto;
+}
+
 .logo {
     width: 20rem;
     height: 20rem;
@@ -16,4 +21,9 @@ h1, h2 {
 
 .logo2 {
     background-image: url('../img/star-outlined-01.svg')
+}
+
+.code-svg rect,
+.embed-svg rect {
+    fill: crimson;
 }
