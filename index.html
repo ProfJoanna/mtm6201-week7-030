@@ -101,5 +101,28 @@
         <rect x="-150" y="" width="100" height="100" fill="url(#mygradient)"/>
         <text x="-50"  y="50">Hello World</text>
     </svg>
+
+    <h2>Using a pattern with SVGs</h2>
+    <svg width="600" height="220"
+         viewBox="0 0 600 220">
+        <defs>
+            <pattern id="dots" x="10" y="10" width="10" height="10" patternUnits="userSpaceOnUse">
+                <circle cx="5" cy="5" r="5" fill="coral"/>
+            </pattern>
+        </defs>
+        <rect x="10" y="10" width="200" height="200" fill="url(#dots)"/>
+        <text x="250"  y="100" fill="url(#dots)" style="font-size: 10rem">Hello World</text>
+    </svg>
+
+    <h2>Using an image pattern with SVG</h2>
+    <svg width="600" height="220"
+         viewBox="0 0 600 220">
+        <defs>
+            <pattern id="pizza" width="300" height="300" patternUnits="userSpaceOnUse">
+                <image xlink:href="https://imdac.github.io/images/svg-mask-pizza.jpg" height="300" width="300"/>
+            </pattern>
+        </defs>
+        <text x="50"  y="150" fill="url(#pizza)" style="font-size: 10rem">Pizza</text>
+    </svg>
 </body>
 </html>
