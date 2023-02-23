@@ -86,5 +86,20 @@
         <!-- <use xlink:href="#brick" x="50" y="100" />
         <use xlink:href="#ball" x="-150" y="100" /> -->
     </svg>
+
+    <h2>Using Gradients with SVGs</h2>
+    <svg class="gradient" width="500" height="100" viewBox="0 0 100 100" style="background: #f1f1f1;">
+        <defs>
+            <linearGradient id="mygradient">
+                <stop offset="9%" stop-color="#c35959"/>
+                <stop offset="43%" stop-color="#d11d1d"/>
+                <stop offset="60%" stop-color="#b60f0f"/>
+                <stop offset="100%" stop-color="#670303"/>
+            </linearGradient>
+        </defs>
+
+        <rect x="-150" y="" width="100" height="100" fill="url(#mygradient)"/>
+        <text x="-50"  y="50">Hello World</text>
+    </svg>
 </body>
 </html>

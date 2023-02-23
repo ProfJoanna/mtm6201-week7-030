@@ -70,3 +70,9 @@ img, svg {
     transform: rotate(180deg);
     transform-origin: center;
 }
+
+.gradient text {
+    font-size: 4rem;
+    font-weight: bold;
+    fill: url(#mygradient);
+}
