@@ -65,3 +65,8 @@ img, svg {
     transform-origin: center;
     transform: rotate(45deg)
 }
+
+.shape2 {
+    transform: rotate(180deg);
+    transform-origin: center;
+}
