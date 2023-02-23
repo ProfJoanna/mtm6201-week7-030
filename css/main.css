@@ -42,3 +42,26 @@ img, svg {
     font-weight: bold;
     fill: #551fd1;
 }
+
+.group-ex .star{
+    transform-origin: center;
+    transform: translate(-45px, -30px) scale(0.3);
+    fill: goldenrod;
+}
+
+.group-ex .magic{
+    transition: all 0.5s ease;
+    transform-origin: 95px 45px;
+}
+.group-ex:hover circle{
+    transform: rotate(2turn);
+}
+
+.group-ex:hover .magic {
+    transform: rotate(2turn);
+}
+
+.dup-bubbles {
+    transform-origin: center;
+    transform: rotate(45deg)
+}
