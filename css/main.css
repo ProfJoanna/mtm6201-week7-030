@@ -76,3 +76,14 @@ img, svg {
     font-weight: bold;
     fill: url(#mygradient);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background: #212121;
+        color: lightgray;
+    }
+    .code-svg rect,
+    .embed-svg rect {
+        fill: orange;
+    }
+}
